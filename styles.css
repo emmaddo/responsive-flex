@@ -1,0 +1,72 @@
+.body{
+    height: 100vh;
+}
+.contentDiv1{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: gray;
+    height: 500px;
+}
+
+.contentDiv2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: gray;
+    height: 300px;
+}
+
+.leftDiv1{
+    display: flex;  
+    flex: 1;
+    background-color: blue;
+    align-items: center;
+    justify-content: center;
+    }
+
+    .leftDiv2{
+    display: flex;  
+    flex: 1;
+    background-color: yellow;
+    }
+
+.middleDiv1{
+    display: flex;
+    flex: 1;
+    }
+
+.middleDiv2{
+    display: flex;
+    flex: 2;
+    background-color: pink;
+}
+
+.rightDiv1{
+    display: flex;
+    flex: 1;
+    background-color: red;
+   }
+
+   .header1{
+    color:white;
+   }
+
+   .responsive-img{
+    width: 100%;
+    height: auto;
+   }
+   
+
+@media (min-width: 678px){
+    .contentDiv1{
+        flex-direction: row;
+    }
+
+    .contentDiv2{
+        flex-direction: row;
+    }
+   
+}
+  
+   
