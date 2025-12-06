@@ -6,8 +6,7 @@
     flex: 1;
     flex-direction: column;
     background-color: gray;
-    height: 500px;
-}
+   }
 
 .contentDiv2{
     display: flex;
@@ -46,6 +45,8 @@
     display: flex;
     flex: 1;
     background-color: red;
+    justify-content: center;
+    align-items: center;
    }
 
    .header1{
@@ -55,6 +56,13 @@
    .responsive-img{
     width: 100%;
     height: auto;
+   }
+
+   .loginBox{
+    display: flex;
+    height: 200px;
+    width: 150px;
+    background-color: green;
    }
    
 
